@@ -48,8 +48,24 @@ In this homework assignment, you will need to:
 
 ### Reporting
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+* ### Techniques used
+- Logistic Regression (LR)
+- Random Forest Classifier (RFC)
+- SVC
+- Deep Learning
+  
+### Model Design Approach
+- Build a base model using the original dataset and all features.
+- Use the base model to evaluate feature importance.
+- Tune the model parameters using *GridSearchCV*.
+- Build the final model using the tuned parameters.
 
+## Model Comparison
+Randome Forest Model has the higest accuracy scoring 0.901. 
+![model_accuracy.png](Images/model_accuracy.png)
+
+It is proved that Random Forest Model is the most accurate, it could to be a reasonable predictor of exoplanet candidacy. However, a model leveraging deep learning techniques might prove superior but the result is not as expected.
+![deep_learning_accuracy.png](Images/deep_learning_accuracy.png)
 - - -
 
 ## Resources
