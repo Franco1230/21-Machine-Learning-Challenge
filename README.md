@@ -46,6 +46,7 @@ In this homework assignment, you will need to:
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
+- - -
 ### Reporting
 
 * ### Techniques used
@@ -54,7 +55,7 @@ In this homework assignment, you will need to:
 - SVC
 - Deep Learning
   
-### Model Design Approach
+## Model Design Approach
 - Build a base model using the original dataset and all features.
 - Use the base model to evaluate feature importance.
 - Tune the model parameters using *GridSearchCV*.
