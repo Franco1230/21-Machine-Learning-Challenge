@@ -1,3 +1,27 @@
+- - -
+### Reporting
+
+* ### Techniques used
+- Logistic Regression (LR)
+- Random Forest Classifier (RFC)
+- SVC
+- Deep Learning
+  
+## Model Design Approach
+- Build a base model using the original dataset and all features.
+- Use the base model to evaluate feature importance.
+- Tune the model parameters using *GridSearchCV*.
+- Build the final model using the tuned parameters.
+
+## Model Comparison
+Random Forest Model has the higest accuracy scoring 0.901.<br />
+![model_accuracy.png](Images/model_accuracy.png)
+
+It is proved that Random Forest Model is the most accurate, it could to be a reasonable predictor of exoplanet candidacy.<br />
+However, a model leveraging deep learning techniques might prove superior but the result is not as expected.<br />
+![deep_learning_accuracy.png](Images/deep_learning_accuracy.png)
+- - -
+
 # Machine Learning Homework - Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
@@ -46,30 +70,6 @@ In this homework assignment, you will need to:
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-- - -
-### Reporting
-
-* ### Techniques used
-- Logistic Regression (LR)
-- Random Forest Classifier (RFC)
-- SVC
-- Deep Learning
-  
-## Model Design Approach
-- Build a base model using the original dataset and all features.
-- Use the base model to evaluate feature importance.
-- Tune the model parameters using *GridSearchCV*.
-- Build the final model using the tuned parameters.
-
-## Model Comparison
-Random Forest Model has the higest accuracy scoring 0.901.
-
- ![model_accuracy.png](Images/model_accuracy.png)
-
-It is proved that Random Forest Model is the most accurate, it could to be a reasonable predictor of exoplanet candidacy. 
-However, a model leveraging deep learning techniques might prove superior but the result is not as expected.
-
- ![deep_learning_accuracy.png](Images/deep_learning_accuracy.png)
 - - -
 
 ## Resources
