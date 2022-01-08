@@ -62,12 +62,14 @@ In this homework assignment, you will need to:
 - Build the final model using the tuned parameters.
 
 ## Model Comparison
-Randome Forest Model has the higest accuracy scoring 0.901. 
-![model_accuracy.png](Images/model_accuracy.png)
+Random Forest Model has the higest accuracy scoring 0.901.
+
+ ![model_accuracy.png](Images/model_accuracy.png)
 
 It is proved that Random Forest Model is the most accurate, it could to be a reasonable predictor of exoplanet candidacy. 
 However, a model leveraging deep learning techniques might prove superior but the result is not as expected.
-![deep_learning_accuracy.png](Images/deep_learning_accuracy.png)
+
+ ![deep_learning_accuracy.png](Images/deep_learning_accuracy.png)
 - - -
 
 ## Resources
